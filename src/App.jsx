@@ -712,8 +712,6 @@ onMouseLeave={(e) => {
       { icon: <FaHtml5 size={45} />, name: "HTML" },
       { icon: <FaCss3Alt size={45} />, name: "CSS" },
       { icon: <FaJs size={45} />, name: "JavaScript" },
-      { icon: <FaReact size={45} />, name: "React" },
-      { icon: <SiThreedotjs size={45} />, name: "Three.js" },
       { icon: <FaPython size={45} />, name: "Python" },
     ].map((skill, index) => (
       <div
