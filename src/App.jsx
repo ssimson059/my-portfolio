@@ -4,7 +4,6 @@ import { useRef, useEffect, useState } from "react";
 import { Stars } from "@react-three/drei";
 import profile from "./assets/profile.jpeg";
 import { motion } from "framer-motion";
-import Particles from "react-tsparticles";
 import CountUp from "react-countup";
 import { Typewriter } from "react-simple-typewriter";
 import { TypeAnimation } from "react-type-animation";
@@ -267,47 +266,6 @@ if (loading) {
   
 ></div>
     
-
-      {/* Paste Here */}
-      <Particles
-        options={{
-          fullScreen: {
-            enable: false,
-          },
-          particles: {
-            number: {
-              value: 60,
-            },
-            color: {
-              value: "#00ff88",
-            },
-            links: {
-              enable: true,
-              color: "#00ff88",
-              distance: 150,
-              opacity: 0.2,
-            },
-            move: {
-              enable: true,
-              speed: 1.5,
-            },
-            opacity: {
-              value: 0.5,
-            },
-            size: {
-              value: 2,
-            },
-          },
-        }}
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          zIndex: -1,
-        }}
-      />
 
       {/* Navigation Bar */}
       <nav></nav>
